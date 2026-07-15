@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-size: 100% auto;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-summary-card {
+  width: 90%;
+  max-width: 450px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.hero-image {
+  margin-bottom: 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.plan-container {
+  width: 70%;
+  background-color: hsl(224, 23%, 55%, 0.1);
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  padding: 20px;
+  align-self: center;
+  margin-bottom: 35px;
+}
+
+.plan-details {
+  margin-left: 20px;
+}
+
+.plan-duration {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.change-button a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.change-button a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%, 0.8);
+}
+
+.change-button {
+  margin-left: auto;
+}
+
+h2,
+.text-descri {
+  text-align: center;
+}
+
+h2 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.text-descri {
+  color: hsl(224, 23%, 55%);
+  margin: 0 70px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.proceed-btn {
+  width: 75%;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  padding: 17px;
+  border-radius: 10px;
+  font-weight: 900;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.proceed-btn:hover {
+  background-color: hsl(245, 75%, 52%, 0.8);
+}
+
+.cancel-btn {
+  border: none;
+  background-color: transparent;
+  padding: 20px;
+  margin-bottom: 10px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.change-button a,
+.proceed-btn,
+.cancel-btn {
+  transition: 0.3s ease;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
